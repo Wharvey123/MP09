@@ -1,0 +1,22 @@
+{
+  "name": "harvey/prova",
+  "type": "project",
+  "autoload": {
+    "classmap": [
+      "./"
+    ],
+    "files": [
+      "framework/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "harvey",
+      "email": "hglover@iesebre.com"
+    }
+  ],
+  "require": {
+      "vlucas/phpdotenv": "^5.5",
+      "ext-pdo": "*"
+  }
+}
